@@ -31,7 +31,7 @@ php craft install/plugin commerce-postfinance
 ## Setup
 
 
-To add the Postfinance payment gateway in the Craft control panel, navigate to **Commerce** → **Settings** → **Gateways**, create a new gateway, set the gateway type to “PostFinance Checkout” and enter the PostFinance Checkout Space ID, PostFinance Checkout User ID and Authentification Key that you can create in the [setup assistant](https://checkout.postfinance.ch/space/select?target=/space/assistant).
+To add the Postfinance payment gateway in the Craft control panel, navigate to **Commerce** → **System Settings** → **Gateways**, create a new gateway, set the gateway type to “PostFinance Checkout” and enter the PostFinance Checkout Space ID, PostFinance Checkout User ID and Authentification Key that you can create in the [setup assistant](https://checkout.postfinance.ch/space/select?target=/space/assistant).
 Alternatively, you can manually create an [application user](https://checkout.postfinance.ch/en-us/doc/permission-concept#_create_application_users).
 
 ## Webhooks
