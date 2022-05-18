@@ -36,15 +36,15 @@ Alternatively, you can manually create an [application user](https://checkout.po
 
 ## Webhooks
 
-You’ll need to create webhooks in postfinance checkout backend to utilize webhooks.
+You’ll need to create webhooks in postfinance account to utilize webhooks.
 
 ### Configuring postfinance checkout
 
-Set up a webhooks endpoint in your Stripe dashboard API settings. The URL for this endpoint can be found in your Commerce Stripe gateway settings.
+Create [webhook](https://checkout.postfinance.ch/en-us/doc/webhooks) in your Postfinance account. The webhook URL can be found in your Commerce Stripe gateway settings.
 
 The required entites and states are:
 
-#### For Transactions
+#### For Transaction
 
 - `Fullfill`
 - `Failed`
@@ -52,5 +52,5 @@ The required entites and states are:
 
 #### For Refund
 
--`Failed`
+- `Failed`
 - `Successfull`
