@@ -1,6 +1,8 @@
 <p align="center"><img src="./src/icon.svg" width="100" height="100" alt="Postfinance for Craft Commerce icon"></p>
+
 <h1 align="center">commerce-postfinance</h1>
-This plugin provides a [Postfinance](https://checkout.postfinance.ch/user/login) integration for [Craft Commerce](https://craftcms.com/commerce) supporting Transactions and Refunds.
+
+This plugin provides a [Postfinance-Checkout](https://checkout.postfinance.ch/user/login) integration for [Craft Commerce](https://craftcms.com/commerce) supporting Transactions and Refunds.
 
 ## Requirements
 
@@ -28,7 +30,7 @@ php craft install/plugin commerce-postfinance
 ```
 ## Setup
 
-To add the Postfinance payment gateway in the Craft control panel, navigate to **Commerce** → **Settings** → **Gateways**, create a new gateway, set the gateway type to “PostFinance Checkout” and enter the PostFinance Checkout Space ID, PostFinance Checkout User ID, Authentification Key that you can create in the [setup assistant] (https://checkout.postfinance.ch/space/select?target=/space/assistant).
-Alternatively, you can manually create an [application user] (https://checkout.postfinance.ch/en-us/doc/permission-concept#_create_application_users).
 
+To add the Postfinance payment gateway in the Craft control panel, navigate to **Commerce** → **Settings** → **Gateways**, create a new gateway, set the gateway type to “PostFinance Checkout” and enter the PostFinance Checkout Space ID, PostFinance Checkout User ID and Authentification Key that you can create in the [setup assistant](https://checkout.postfinance.ch/space/select?target=/space/assistant).
+Alternatively, you can manually create an [application user](https://checkout.postfinance.ch/en-us/doc/permission-concept#_create_application_users).
 
