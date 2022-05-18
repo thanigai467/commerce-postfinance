@@ -34,3 +34,23 @@ php craft install/plugin commerce-postfinance
 To add the Postfinance payment gateway in the Craft control panel, navigate to **Commerce** → **Settings** → **Gateways**, create a new gateway, set the gateway type to “PostFinance Checkout” and enter the PostFinance Checkout Space ID, PostFinance Checkout User ID and Authentification Key that you can create in the [setup assistant](https://checkout.postfinance.ch/space/select?target=/space/assistant).
 Alternatively, you can manually create an [application user](https://checkout.postfinance.ch/en-us/doc/permission-concept#_create_application_users).
 
+## Webhooks
+
+You’ll need to create webhooks in postfinance checkout backend to utilize webhooks.
+
+### Configuring postfinance checkout
+
+Set up a webhooks endpoint in your Stripe dashboard API settings. The URL for this endpoint can be found in your Commerce Stripe gateway settings.
+
+The required entites and states are:
+
+#### For Transactions
+
+- `Fullfill`
+- `Failed`
+- `Voided`
+
+#### For Refund
+
+-`Failed`
+- `Successfull`
