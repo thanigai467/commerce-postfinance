@@ -42,7 +42,7 @@ You’ll need to create webhooks in postfinance account to utilize webhooks.
 
 Create [webhook](https://checkout.postfinance.ch/en-us/doc/webhooks) in your Postfinance account. The webhook URL can be found in your Commerce Stripe gateway settings.
 
-The required entites and states are:
+The required entity states are:
 
 #### For Transaction
 
