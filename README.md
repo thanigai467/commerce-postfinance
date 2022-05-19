@@ -49,6 +49,7 @@ The required entity states are:
 - `Fullfill`
 - `Failed`
 - `Voided`
+- `Decline`
 
 #### For Refund
 
