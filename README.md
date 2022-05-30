@@ -23,7 +23,7 @@ Open your terminal and run the following commands:
 cd /path/to/my-project.test
 
 # tell Composer to load the plugin
-composer require craftcms/commerce-posfinance
+composer require craftcms/commerce-postfinance
 
 # tell Craft to install the plugin
 php craft install/plugin commerce-postfinance
