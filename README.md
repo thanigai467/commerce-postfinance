@@ -16,6 +16,24 @@ You can install this plugin using Composer.
 
 #### With Composer
 
+Open composer.json file of project directory and Add the below lines (only for this repository).
+
+```bash
+{
+    "name": "ruban-ss4u/commerce-postfinance",
+    "require": {
+        "craftcms/commerce-postfinance": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/ruban-ss4u/commerce-postfinance"
+        }
+    ]
+}
+```
+
+
 Open your terminal and run the following commands:
 
 ```bash
