@@ -53,6 +53,16 @@ To add the Postfinance payment gateway in the Craft control panel, navigate to *
 Alternatively, you can manually create an [application user](https://checkout.postfinance.ch/en-us/doc/permission-concept#_create_application_users)
 and [Assign Roles to User](https://checkout.postfinance.ch/en-us/doc/permission-concept#_assign_roles_to_users).
 
+### payment methods configuration
+
+#### make sure you have  payment method configuraton name  as follow
+- Credit / Debit Card (for Visa, MasterCard)
+- PostFinance Card (for PostfinanceCard)
+- PostFinance E-Finance (for Postfinance E-Finance)
+- Invoice (for Invoice)
+- TWINT (for Twint)
+
+To check your payment method configuration name in your postfinace account, navigate to   **Space** → **Confgiuration** →  **Payment Methods**
 ## Webhooks
 
 You’ll need to create webhooks in postfinance account to utilize webhooks.
